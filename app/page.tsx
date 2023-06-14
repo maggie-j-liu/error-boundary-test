@@ -1,4 +1,5 @@
 // "use client";
+// ^ the error boundary only works if "use client" is uncommented
 import Image from "next/image";
 import React from "react";
 import { ErrorBoundary } from "./error-boundary";
